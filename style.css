@@ -49,6 +49,11 @@ html,body{
     font-weight: 100;
 }
 
+#nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
 #nav #in2{
     width: 6%;
     display: flex;
@@ -384,7 +389,284 @@ html,body{
 
 #page6{
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     z-index: 999;
     background-color: #e4e4e4;
+    position: relative;
+    font-family: gilroy;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+#page6>h1{
+    font-size: 5vw;
+    margin-bottom: 1vh;
+}
+
+#page6>h5{
+    font-weight: 100;
+    font-size: 1.2vw;
+    letter-spacing: 1px;
+}
+
+#cards{
+    width: 90%;
+    margin-left: 5%;
+    height: 100%;
+    padding-top: 10vh;
+}
+
+#cards #in1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+#cards #in2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cards .card{
+    width: 32%;
+    height: 35vh;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    text-align: start;
+    padding: 2vh 3vh;
+}
+
+.card h5{
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.card h1{
+    font-size: 2vw;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin: 2vh 0;
+}
+
+.card h3{
+    font-weight: 100;
+    font-size: 1.3vw;
+    letter-spacing: 1px;
+    margin-bottom: 2vh;
+    line-height: 1.6vw;
+}
+
+#page7{
+    width: 100%;
+    min-height: 200vh;
+    background-color: #e4e4e4;
+    color: #000;
+    font-family: gilroy;
+    position: relative;
+}
+
+#line{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20vh;
+}
+
+#lin1>h1{
+    font-weight: 100;
+    font-size: .5vw;
+}
+
+#top{
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+#top h1{
+    font-size: 5vw;
+}
+
+#top h4{
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+#conti1{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#conti1::-webkit-scrollbar{
+    display: none;
+}
+
+#conti1 h1{
+    font-size: 18vh;
+    color: transparent;
+    -webkit-text-stroke: 2px #000;
+    animation-name: anim1;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 18s;
+    letter-spacing: 4px;
+    animation-direction: reverse;
+}
+
+#conti2{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#conti2::-webkit-scrollbar{
+    display: none;
+}
+
+#conti2 h1{
+    font-size: 18vh;
+    color: transparent;
+    -webkit-text-stroke: 2px #000;
+    animation-name: anim1;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    letter-spacing: 4px;
+    animation-duration: 20s;
+}
+
+#conti3{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#conti3::-webkit-scrollbar{
+    display: none;
+}
+
+#conti3 h1{
+    font-size: 18vh;
+    color: transparent;
+    -webkit-text-stroke: 2px #000;
+    animation-name: anim1;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 22s;
+    letter-spacing: 4px;
+    animation-direction: reverse;
+}
+
+#page7 img{
+    object-fit: cover;
+    width: 90vh;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+#page7 #picture{
+    margin-top: 53vh;
+    text-align: center;
+}
+
+#picture h1{
+    font-size: 2vw;
+    margin-bottom: .5vh;
+}
+
+#picture h5{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+#picture a{
+    text-decoration: none;
+    color: #000;
+    font-size: 2.2vw;
+}
+
+#picture h3{
+    font-size: 1.2vw;
+    margin-top: 2vh;
+}
+
+#page8{
+    width: 100%;
+    height: 100vh;
+    background-color: #e4e4e4;
+    position: relative;
+    padding: 1px ;
+}
+
+#page8 #in1{
+    font-weight: 800;
+    display: flex;
+    margin-top: 15vh;
+    align-items: center;
+    flex-direction: column;
+    rotate: 90deg;
+}
+
+#page8 #btn{
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 35%;
+    width: 30%;
+}
+
+#btn button{
+    padding: 1.5vh 8vh;
+    border-radius: 50px;
+    letter-spacing: .5px;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    transition: all ease .2s;
+    cursor: pointer;
+}
+
+#btn button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+#page8 h1{
+    margin-top: 5vh;
+    font-size: 11vw;
+    font-weight: 900;
+    font-family: LA;
+    text-align: center;
+    letter-spacing: -2px;
+    line-height: 10vw;
+    color: transparent;
+    -webkit-text-stroke: 3px #000;
+}
+
+#page8 h5{
+    font-family: gilroy;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    margin-top: 4vh;
 }
